@@ -1,0 +1,10 @@
+server:
+  port: 8081
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://guddu:Guddu*55*@cluster0.teln5bv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      database: journal_entry_db
+      auto-index-creation: true
+  application:
+    name: tutorial
